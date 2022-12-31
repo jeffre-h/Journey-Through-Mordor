@@ -17,6 +17,9 @@ over. To win, Frodo must collect all the scattered rewards and then reach Mount 
 reaches Mount Doom without having collected all the rewards, the user will have lost. Frodo will be controlled by
 the user on their keyboard allowing him to move one cell at a time. He can move up, down, left, and right. 
 
+Key Technologies
+- Java, Java Swing, JaCoCo, Java Docs, Apache Maven
+
 ## Building the Game
 Navigate to the root directory and type in the terminal:
 ```bash
