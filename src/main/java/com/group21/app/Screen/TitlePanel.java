@@ -12,7 +12,6 @@ import com.group21.app.Screen.Buttons;
  * This class creates the images and and buttons 
  * for TitlePanel
  * 
- * @author Jimmy
  */
 public class TitlePanel extends JPanel implements ActionListener {
 
@@ -23,7 +22,6 @@ public class TitlePanel extends JPanel implements ActionListener {
      * The constructor sets up the window with the play game button and 
      * sets dimension and layout of images
      * 
-     * @author Jimmy
      */
     public TitlePanel(){
         // Set size of screen
@@ -58,7 +56,6 @@ public class TitlePanel extends JPanel implements ActionListener {
      * onto the panel
      * 
      * @param graphic instance of Graphics to diplay on the screen
-     * @author Jimmy
      */
     @Override
     public void paintComponent(Graphics graphic) {
@@ -78,7 +75,6 @@ public class TitlePanel extends JPanel implements ActionListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Jimmy
      */
     @Override
     public void actionPerformed(ActionEvent e) {}

@@ -14,7 +14,6 @@ import java.util.Timer;
 /**
  * This class tests the construction of the cell map.
  *
- * @author Preet
  */
 public class CellMapTest {
     ScreenPanel screen;

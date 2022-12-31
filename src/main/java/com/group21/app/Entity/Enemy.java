@@ -33,7 +33,6 @@ public class Enemy extends Entity {
      * @param enemyType enemyType of enemy that is being passed in
      * @param x         x coordinate where the enemy will start off at
      * @param y         y coordinate where the enemy will start off at
-     * @author Jessy
      */
     public Enemy(ScreenPanel screen, String enemyType, int x, int y) {
         loadImage(enemyType);
@@ -50,7 +49,6 @@ public class Enemy extends Entity {
      * <p>
      * 
      * @param enemyType represent the enemyType of enemy we are rendering
-     * @author Jimmy
      */
     private void loadImage(String enemyType) {
         // load main character's images
@@ -86,7 +84,6 @@ public class Enemy extends Entity {
      *
      * @param graphic an instance of Graphics from java.awt, which allows rendering
      *                of images onto screen
-     * @author Preet
      */
     public void draw(Graphics graphic) {
         Image img = null;
@@ -111,7 +108,6 @@ public class Enemy extends Entity {
      * in y direction
      * 
      * @param player takes in the user entity
-     * @author Jessy
      */
     public void moveToPlayer(Character player) {
 
@@ -187,7 +183,6 @@ public class Enemy extends Entity {
      *
      * @return true/false checking if enemy collided with something
      * @param player takes in the user entity
-     * @author Jessy
      */
     Boolean checkCollision(int xPos, int yPos, Character player) {
         collisionOn = false;
@@ -214,7 +209,6 @@ public class Enemy extends Entity {
      * @return true/false checking if enemy collided with something
      * @param xPos new xPosition enemy moving to
      * @param yPos new yPosition enemy moving to
-     * @author Jessy
      */
     public Boolean checkObjectCollision(int xPos, int yPos) {
         int[] cell_id = {1,2,3,4,5,6,7,15,19,20,21,22,23};

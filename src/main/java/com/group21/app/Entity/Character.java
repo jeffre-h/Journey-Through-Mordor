@@ -30,7 +30,6 @@ public class Character extends Entity implements KeyListener {
      *
      * @param screen instance of ScreenPanel in which to load Frodo's image
      * @see ScreenPanel
-     * @author Preet
      */
     public Character(ScreenPanel screen, String imgD) {
         loadImage();
@@ -44,7 +43,6 @@ public class Character extends Entity implements KeyListener {
      * for one instance of Character to exist
      *
      * @return Character
-     * @author Preet
      */
     public static Character getInstance(ScreenPanel screen, String imgD){
         if (singletonInstance == null){
@@ -59,7 +57,6 @@ public class Character extends Entity implements KeyListener {
      * Resets every static object in Character by
      * setting it to null
      *
-     * @author Preet
      */
     public static void deleteInstance() {
         singletonInstance = null;
@@ -72,7 +69,6 @@ public class Character extends Entity implements KeyListener {
      * <p>
      * This method creates instances of ImageIcon from the javax.swing library.
      *
-     * @author Preet
      */
     private void loadImage () {
         characterLeftImage = new ImageIcon("src/main/resources/images/frodo_left.png").getImage();
@@ -86,7 +82,6 @@ public class Character extends Entity implements KeyListener {
      * Uses drawImage() from the java.awt library to render the image onto the screen.
      *
      * @param graphic an instance of Graphics from java.awt, which allows rendering of images onto screen
-     * @author Preet
      */
     public void draw(Graphics graphic) {
         Image img = null;
@@ -108,7 +103,6 @@ public class Character extends Entity implements KeyListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Preet
      */
     @Override
     public void keyTyped(KeyEvent e) {}
@@ -123,8 +117,6 @@ public class Character extends Entity implements KeyListener {
      * @param e the event to be processed
      * @see ScreenPanel
      * @see detectCollision
-     * @author Preet
-     * @author Jimmy
      */
     @Override
     public void keyPressed(KeyEvent e) {
@@ -178,7 +170,6 @@ public class Character extends Entity implements KeyListener {
      * and having character run across screen.
      *
      * @param e the event to be processed
-     * @author Jimmy
      */
     @Override
     public void keyReleased(KeyEvent e) {

@@ -11,7 +11,6 @@ import com.group21.app.Entity.Enemy;
  * This class instantiates the lose panel and positions
  * all the images in it
  * 
- * @author Jimmy
  */
 public class LosePanel extends JPanel implements ActionListener {
 
@@ -23,7 +22,6 @@ public class LosePanel extends JPanel implements ActionListener {
      * The constructor creates the buttons on the lose panel
      * that connect back to the game window
      * @param state string defining the reason for losing
-     * @author Jimmy 
      */
     public LosePanel(String state){
         setPreferredSize(new Dimension(1350, 675));
@@ -58,7 +56,6 @@ public class LosePanel extends JPanel implements ActionListener {
      * depending on how the character lost
      * 
      * @param graphic instance of Graphics to display on screen
-     * @author Jimmy
      */
     @Override
     public void paintComponent(Graphics graphic) {
@@ -92,7 +89,6 @@ public class LosePanel extends JPanel implements ActionListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Jimmy
      */
     @Override
     public void actionPerformed(ActionEvent e) {}

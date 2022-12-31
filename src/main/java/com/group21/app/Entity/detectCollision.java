@@ -21,7 +21,6 @@ public class detectCollision {
      * class so it can access screen attributes like delete instance
      * 
      * @param screen instance of ScreenPanel where the collision is to be detected
-     * @author Jimmy
      */    
     public detectCollision(ScreenPanel screen) {
         this.screen = screen;
@@ -34,7 +33,6 @@ public class detectCollision {
      *
      * @param entity character instance
      * @param newPos new simulated position
-     * @author Preet
      */
     public void simulateCharacterMove(Entity entity, int[] newPos) {
         switch (entity.direction) {
@@ -67,8 +65,6 @@ public class detectCollision {
      * @param entity instance of Entity to detect collision for
      * @see ScreenPanel
      * @see UI
-     * @author Jimmy
-     * @author Jeffrey
      */
     public void checkCell(Entity entity) {
         int[] newPos = new int[2];

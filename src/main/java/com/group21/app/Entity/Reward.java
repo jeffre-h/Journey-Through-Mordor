@@ -25,7 +25,6 @@ public class Reward extends Entity {
      * @param x x-coordinate of the reward on the map
      * @param y y-coordinate of the reward on the map
      * @see ScreenPanel
-     * @author Jeffrey
      */
     public Reward(ScreenPanel s, int id, int x, int y, int score) {
         screen = s;

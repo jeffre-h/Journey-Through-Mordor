@@ -29,7 +29,6 @@ public class WinPanel extends JPanel implements ActionListener {
      * and sets the dimension of the window. Also connects back to the 
      * game window if player clicks play again
      * 
-     * @author Jimmy
      */
     public WinPanel(){
         // Set size of screen
@@ -76,7 +75,6 @@ public class WinPanel extends JPanel implements ActionListener {
      * Paints the background image onto the panel
      * 
      * @param graphic instance of Graphics to display on screen
-     * @author Jimmy
      */
     @Override
     public void paintComponent(Graphics graphic) {
@@ -93,7 +91,6 @@ public class WinPanel extends JPanel implements ActionListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Jimmy
      */
     @Override
     public void actionPerformed(ActionEvent e) {}

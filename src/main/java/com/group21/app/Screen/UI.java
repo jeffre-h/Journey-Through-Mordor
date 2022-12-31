@@ -25,7 +25,6 @@ public class UI {
     /**
      * Uses the singleton design pattern to ensure only one instance of UI is created
      * @return UI
-     * @author Jimmy
      */
     public static UI getInstance(){
         if (singletonInstance == null){
@@ -47,7 +46,6 @@ public class UI {
      *     - open window in middle of user's screen
      *
      * @see TitlePanel
-     * @author Jimmy
      */
     public void makeTitleWindow(){
         JFrame window = new JFrame("Journey Through Mordor");
@@ -83,7 +81,6 @@ public class UI {
      *     - open window in middle of user's screen
      *
      * @see RulePanel
-     * @author Jimmy
      */
     public void makeRuleWindow() {
         // create window with JFrame
@@ -128,7 +125,6 @@ public class UI {
      *
      * @see ScreenPanel
      * @see MenuPanel
-     * @author Preet
      */
     public void makeGameWindow() {
         gameWindow = new JFrame("Journey Through Mordor");
@@ -161,7 +157,6 @@ public class UI {
      * Deletes the instance of game Window when the player won or lost
      * 
      * @see ScreenPanel
-     * @author Jimmy
      */
     public void disposeGameWindow(){
         gameWindow.dispose();
@@ -180,7 +175,6 @@ public class UI {
      *     - open window in middle of user's screen
      *
      * @see WinPanel
-     * @author Jimmy
      */
     public void makeWinWindow(){
         // create window with JFrame
@@ -218,7 +212,6 @@ public class UI {
      *     - open window in middle of user's screen
      *
      * @see LosePanel
-     * @author Jimmy
      */
     public void makeLoseWindow(String state){
         // create window with JFrame
@@ -250,7 +243,6 @@ public class UI {
      * @see ScreenPanel
      * @see Enemy
      * @see detectCollision
-     * @author Jimmy
      */
     public void makeWinRewardsWindow(){
         Character.deleteInstance();
@@ -268,7 +260,6 @@ public class UI {
      * 
      * @see Screenpanel 
      * @see detectCollision
-     * @author Jimmy
      */
     public void makeLoseRewardsWindow(){
         Character.deleteInstance();
@@ -281,8 +272,7 @@ public class UI {
      * This method instantiates the lose window and disposes the 
      * game window when the user's score drops below 0
      * 
-     * @see detectCollision
-     * @author Jimmy 
+     * @see detectCollision 
      */
     public void makeLoseScoreWindow(){
         Character.deleteInstance();

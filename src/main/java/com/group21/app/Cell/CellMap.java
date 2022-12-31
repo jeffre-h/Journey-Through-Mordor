@@ -34,7 +34,6 @@ public class CellMap {
      *
      * @param screen the instance of ScreenPanel to display the map on
      * @see ScreenPanel
-     * @author Preet
      */
     public CellMap(ScreenPanel screen) {
         this.screen = screen;
@@ -69,7 +68,6 @@ public class CellMap {
      * @param fileName image location for the cell
      * @param cellType
      * @see Cell
-     * @author Preet
      */
     public void createCell(int num, String fileName, String cellType) {
         cell[num] = new Cell();
@@ -81,9 +79,6 @@ public class CellMap {
      * This method loads the images for each of the cells to be displayed on the screen
      * by calling the createCell() helper method
      *
-     * @author Preet
-     * @author Jeffrey
-     * @author Jessy
      */
     public void loadCellImage() {
         // empty cell:
@@ -136,7 +131,6 @@ public class CellMap {
      * Uses drawImage() from java.awt to do the rendering.
      *
      * @param graphic image to be rendered on screen
-     * @author Preet
      */
     public void draw(Graphics graphic) {
         int x = 0;

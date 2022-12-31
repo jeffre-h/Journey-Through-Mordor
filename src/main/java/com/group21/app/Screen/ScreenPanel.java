@@ -75,8 +75,6 @@ public class ScreenPanel extends JPanel implements ActionListener, KeyListener {
      *
      * @see Character
      * @see Enemy
-     * @author Preet
-     * @author Jessy
      */
     private ScreenPanel() {
         setPreferredSize(new Dimension(cellSize * numColumns, cellSize * numRows));
@@ -116,7 +114,6 @@ public class ScreenPanel extends JPanel implements ActionListener, KeyListener {
      * for one instance of ScreenPanel to exist
      * 
      * @return ScreenPanel
-     * @author Jimmy
      */
     public static ScreenPanel getInstance(){
         if (singletonInstance == null){
@@ -131,7 +128,6 @@ public class ScreenPanel extends JPanel implements ActionListener, KeyListener {
      * Resets every object in ScreenPanel by 
      * setting it to null
      * 
-     * @author Jimmy
      */
     public static void deleteInstance(){
         timer = null;
@@ -150,8 +146,6 @@ public class ScreenPanel extends JPanel implements ActionListener, KeyListener {
      * @see CellMap
      * @see Character
      * @see Enemy
-     * @author Preet
-     * @author Jessy
      */
     public void paintComponent(Graphics graphic) {
         cellM.draw(graphic);
@@ -168,8 +162,6 @@ public class ScreenPanel extends JPanel implements ActionListener, KeyListener {
      *
      * @param e the event to be processed
      * @see Enemy
-     * @author Jessy
-     * @author Preet
      */
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -189,7 +181,6 @@ public class ScreenPanel extends JPanel implements ActionListener, KeyListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Preet
      */
     @Override
     public void keyTyped(KeyEvent e) {}
@@ -200,7 +191,6 @@ public class ScreenPanel extends JPanel implements ActionListener, KeyListener {
      *
      * @param e the event to be processed
      * @see Character
-     * @author Preet
      */
     @Override
     public void keyPressed(KeyEvent e) {
@@ -213,7 +203,6 @@ public class ScreenPanel extends JPanel implements ActionListener, KeyListener {
      *
      * @param e the event to be processed
      * @see Character
-     * @author Jimmy
      */
     @Override
     public void keyReleased(KeyEvent e) {

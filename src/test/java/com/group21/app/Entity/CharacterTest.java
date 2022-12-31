@@ -15,7 +15,6 @@ import com.group21.app.Screen.UI;
  * This class tests character movement 
  * from keyboard input
  * 
- * @author Jimmy Hui
  */
 public class CharacterTest {
     ScreenPanel screenpanel = ScreenPanel.getInstance();

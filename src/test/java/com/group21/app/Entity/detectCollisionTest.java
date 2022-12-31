@@ -21,7 +21,6 @@ import com.group21.app.Entity.Enemy;
  * whether the correct screen is shown after the 
  * replay button is pressed.
  * 
- * @author Jimmy Hui
  */
 public class detectCollisionTest {
 
@@ -293,7 +292,6 @@ public class detectCollisionTest {
      * of 99, walking into the Eye of Sauron will give a score of -1,
      * and the lose screen should be displayed.
      *
-     * @author Preet
      */
     @Test
     public void characterHasNegativeOneScore(){
@@ -312,7 +310,6 @@ public class detectCollisionTest {
      * of 0, walking into the Eye of Sauron will give a score of -100, and
      * the lose screen should be displayed.
      *
-     * @author Preet
      */
     @Test
     public void characterHasNegative100Score(){

@@ -9,7 +9,6 @@ import javax.swing.JPanel;
  * and adds attributes such as setFocusable, setOpaque,
  * setBorderPainted, and setBounds
  * 
- * @author Jimmy
  */
 public class Buttons extends JPanel {
 

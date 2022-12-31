@@ -10,7 +10,6 @@ import java.awt.event.KeyListener;
  * This class creates instantiates the rule panel and positions
  * all the images in it
  * 
- * @author Jimmy
  */
 public class RulePanel extends JPanel implements ActionListener,KeyListener {
 
@@ -22,7 +21,6 @@ public class RulePanel extends JPanel implements ActionListener,KeyListener {
      * The constructor creates the images on the rule panel
      * and connects the continue button to the game window
      *
-     * @author Jimmy
      */
     public RulePanel(){
         // Set size of screen
@@ -57,7 +55,6 @@ public class RulePanel extends JPanel implements ActionListener,KeyListener {
      * Paints the background image onto the rule screen
      * 
      * @param graphic instance of Graphics to display on screen
-     * @author Jimmy
      */
     @Override
     public void paintComponent(Graphics graphic) {
@@ -72,7 +69,6 @@ public class RulePanel extends JPanel implements ActionListener,KeyListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Jimmy
      */
     @Override
     public void keyPressed(KeyEvent e) {}
@@ -82,7 +78,6 @@ public class RulePanel extends JPanel implements ActionListener,KeyListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Jimmy
      */
     @Override
     public void actionPerformed(ActionEvent e) {}
@@ -92,7 +87,6 @@ public class RulePanel extends JPanel implements ActionListener,KeyListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Jimmy
      */
     @Override
     public void keyTyped(KeyEvent e) {}
@@ -102,7 +96,6 @@ public class RulePanel extends JPanel implements ActionListener,KeyListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Jimmy
      */
     @Override
     public void keyReleased(KeyEvent e) {}

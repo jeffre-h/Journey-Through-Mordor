@@ -19,7 +19,6 @@ public class Bonus extends Reward {
      * @param id the specific type of reward
      * @param x x-coordinate of the reward on the map
      * @param y y-coordinate of the reward on the map
-     * @author Jeffrey
      */
     public Bonus(ScreenPanel s, int id, int x, int y, int score) {
         // inherited from superclass Reward

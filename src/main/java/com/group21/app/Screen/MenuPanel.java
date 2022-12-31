@@ -40,7 +40,6 @@ public class MenuPanel extends JPanel implements ActionListener {
      *
      * @param screen instance of ScreenPanel to attach MenuPanel to
      * @see ScreenPanel
-     * @author Preet
      */
     public MenuPanel(ScreenPanel screen) {
         this.screen = screen;
@@ -101,8 +100,6 @@ public class MenuPanel extends JPanel implements ActionListener {
      * <p>
      * during the 50-60th second, both bonuses will be inactive
      *
-     * @author Preet
-     * @author Jeffrey
      */
     public void timeElapsed() {
         // update the timer every 1000 milliseconds (1 second)
@@ -164,7 +161,6 @@ public class MenuPanel extends JPanel implements ActionListener {
      * However, it isn't used in the program, and therefore isn't implemented.
      *
      * @param e the event to be processed
-     * @author Preet
      */
     @Override
     public void actionPerformed(ActionEvent e) {}

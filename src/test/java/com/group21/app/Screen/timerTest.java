@@ -18,7 +18,6 @@ import java.util.Timer;
  * and the placement of bonus rewards with respect to time
  * 
  * 
- * @author Jeffrey
  */
 public class timerTest {
     MenuPanel menu;

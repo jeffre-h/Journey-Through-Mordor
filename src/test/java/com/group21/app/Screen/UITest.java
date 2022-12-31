@@ -11,7 +11,6 @@ import static org.junit.Assert.assertEquals;
  * This class tests the JPanel classes for the UI and the
  * title, rule, and game/menu panels.
  *
- * @author Preet
  */
 public class UITest {
     UI ui;
