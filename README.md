@@ -10,7 +10,7 @@ Java, Java Swing, JaCoCo, JavaDocs, Apache Maven
 [![Game Trailer](https://img.youtube.com/vi/td1vKdk4mZs/0.jpg)](https://www.youtube.com/watch?v=td1vKdk4mZs)
 
 ## Design
-![UML Diagram](documents/UML_diagram.png)
+<img src="documents/UML_diagram.png" alt="UML Diagram" width="480">
 
 ## Getting Started
 
