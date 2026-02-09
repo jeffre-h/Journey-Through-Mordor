@@ -1,10 +1,13 @@
 # Journey-Through-Mordor
 
 ## Description
-A 2D arcade game set in the Lord of the Rings universe. Play as Frodo on a journey through Mordor. Collect rewards, avoid enemies, and reach Mount Doom to destroy the One Ring. Score drops below 0 and you lose; collect all rewards and reach Mount Doom to win.
+A 2D platformer game set in the Lord of the Rings universe. Play as Frodo on a journey through Mordor. Collect rewards, avoid enemies, and reach Mount Doom to destroy the One Ring. Score drops below 0 and you lose; collect all rewards and reach Mount Doom to win.
 
 ### Tech Stack
 Java, Java Swing, JUnit, JaCoCo, Apache Maven
+
+## Preview
+![Gameplay](documents/game.png)
 
 ## Game Trailer
 [Watch the trailer](https://www.youtube.com/watch?v=td1vKdk4mZs)
